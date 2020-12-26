@@ -5,7 +5,7 @@ const Rmfschool = (prop) => {
         <div className = "Project-container">
             <div className = "Slide-show">
                 <h2 className = "Title">Reminder for school</h2>
-                <iframe width="993" height="538" src="https://www.youtube.com/embed/pXNjMPbA_5M" frameborder="0" 
+                <iframe width="700" height="400" src="https://www.youtube.com/embed/pXNjMPbA_5M" frameborder="0" 
                 allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                 </iframe>
             </div>
