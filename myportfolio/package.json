@@ -15,12 +15,8 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "build": "cd myportfolio && npm run build",
-    "install": "cd myportfolio && npm install",
-    "start": "node server",
-    "server": "nodemon server",
-    "client": "npm start --prefix myportfolio",
-    "dev": "concurrently \"npm run server\" \"npm run myportfolio\""
+    "start": "node index.js",
+    "heroku-postbuild": "cd client && npm install --only=dev && npm install && npm run build"
   },
   "proxy": "http://localhost:5000",
   "eslintConfig": {
