@@ -1,12 +1,11 @@
 import React from "react";
 import '../App.css';
-import demo from '../Imgandvid/Shellhackdemo.mp4';
 const Rmfschool = (prop) => {
     return (
         <div className = "Project-container">
             <div className = "Slide-show">
                 <h2 className = "Title">Reminder for school</h2>
-                <video src={demo} width="600" height="300" controls="control" />
+                
             </div>
 
             <div className = "Description">
