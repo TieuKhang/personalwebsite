@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: rgba(0, 60, 255, 0.63);
+  background-color: lightblue;
   padding-top: 7vh;
   min-height:50vh;
   display: flex;

@@ -3,7 +3,7 @@ import '../App.css';
 const Contactme = (prop) => {
     return (
         <div className = "Wrapper" id = "Contact">
-            <h1 className = "Web-header" > MY CONTACT </h1>
+            <h1 className = "Web-header" > CONTACT </h1>
             <p> Feel free to reach out to me through: </p>
             <p> University email: k4tieu@uwaterloo.ca </p>
             <p> Phone number: 437 929 7617 </p>

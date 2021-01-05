@@ -17,7 +17,7 @@ class App extends React.Component {
         <Intro/>
         <Skill/>
         <div id = "Project">
-          <h1 className = "Web-header"> FEATURED PROJECTS </h1>
+          <h1 className = "Web-header"> PROJECTS </h1>
           <Rmfschool/>
           <p></p>
           <Just4u/>
@@ -25,6 +25,16 @@ class App extends React.Component {
           <Teachengl/>
         </div>
         <Contactme/>
+        <p></p>
+        <hr/>
+        <p>
+          This website is made with ReactJS and Express Server in NodeJs. 
+          <span> <a style={{display: "table-cell"}} target = "_blank" rel = "noopener noreferrer"
+                    href='https://github.com/TieuKhang/personalwebsite'>
+                        Github code 
+               </a>
+        </span>   
+        </p>
       </div>
     );
   }
