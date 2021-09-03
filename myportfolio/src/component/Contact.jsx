@@ -11,11 +11,6 @@ const Contact = (prop) => {
             <span> <a className = "Contact-navbar" href="#Project">PROJECTS </a></span>
             <span> <a className = "Contact-navbar" href="#Contact">CONTACT </a></span>
             <span> <a className = "Contact-navbar" style={{display: "table-cell"}} target = "_blank" rel = "noopener noreferrer"
-                    href={resume}>
-                        RESUME 
-                    </a>
-            </span>
-            <span> <a className = "Contact-navbar" style={{display: "table-cell"}} target = "_blank" rel = "noopener noreferrer"
             href={ach}> ACHIEVEMENTS </a></span>
         </div>
     )

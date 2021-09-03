@@ -1,18 +1,18 @@
 import React from "react";
-import demo1 from '../Imgandvid/just4u/img1.PNG';
-import demo2 from '../Imgandvid/just4u/img2.PNG';
-import demo3 from '../Imgandvid/just4u/img3.PNG';
+import demo1 from '../Imgandvid/grocerybased/img3.png';
+import demo2 from '../Imgandvid/grocerybased/img1.PNG';
+import demo3 from '../Imgandvid/grocerybased/img2.PNG';
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
 import '../App.css';
 
 const img = [demo1,demo2,demo3]
 
-const Just4u = (prop) => {
+const Grocerybased = (prop) => {
     return (
         <div className = "Project-container">
             <div className = "Slide-show">
-                <h2 className = "Title">Just4U</h2>
+                <h2 className = "Title">GroceryBased</h2>
                 <Slide autoplay = "true" duration = "1000" >
                     <img
                         src = {img[0]}
@@ -37,29 +37,24 @@ const Just4u = (prop) => {
 
             <div className = "Description">
                 <h2 className = "Title"> About this project </h2>
-                <p> This is a web development project that I cooperated with my friends to build it.
-                    This website is built to provide information on law-related issues that is specific to a personalized account.
+                <p> This is a project that I developed with a team for the Hack The North 2021 event that 
+                    allows users to capture or upload picture of a grocery item and its label will be recognized by the Google Vision API
+                    and stored in a list for the users to keep track of and compare their prices. 
                 </p>
-                <p> The website was built based on NodeJs with Express server.
-                    The database of this project was enabled by Mongoose and MongoDB.
-                    The security/authorization of the website is set up by Passport Local Mongoose with Express session.
+                <p> The website was built with Python/Flask server.
+                    The database in used is SQLAlchemy.
                     The front-end of the website was built with ReactJS.
                 </p>
                 <p> 
-                    <span className = "Categories">Programming language: </span> <span>Javascript, HTML/CSS</span>
+                    <span className = "Categories">Programming language: </span> <span>Javascript, Python</span>
                 </p>
                 <p> 
-                    <span className = "Categories">Tools: </span> <span>NodeJS, Mongoose/MongoDB, ReactJS</span>
+                    <span className = "Categories">Tools: </span> <span>ReactJS, Flask, SQLAlchemy</span>
                 </p>
             </div>
 
-            <a style={{display: "table-cell", borderRadius:8}} className = "Project-link" href = "https://protected-earth-76261.herokuapp.com/" 
-                target = "_blank" rel = "noopener noreferrer">
-                    Click here to view the project
-            </a>
-
             <a style={{display: "table-cell", borderRadius:8}} className = "Project-link"
-                href = "https://github.com/huancho9802/just4u" 
+                href = "https://github.com/TieuKhang/web-app-htn" 
                 target = "_blank" rel = "noopener noreferrer">
                     Github opensource of this project
             </a>
@@ -67,4 +62,4 @@ const Just4u = (prop) => {
     )
 }
 
-export default Just4u;
+export default Grocerybased;

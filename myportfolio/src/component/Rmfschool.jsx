@@ -29,12 +29,12 @@ const Rmfschool = (prop) => {
                 </p>
             </div>
 
-            <a style={{display: "table-cell"}} className = "Project-link" href = "https://reminder-school-work.herokuapp.com/" 
+            <a style={{display: "table-cell", borderRadius:8}} className = "Project-link" href = "https://reminder-school-work.herokuapp.com/" 
                 target = "_blank" rel = "noopener noreferrer">
                     Click here to view the project
             </a>
 
-            <a style={{display: "table-cell"}} className = "Project-link"
+            <a style={{display: "table-cell", borderRadius:8}} className = "Project-link"
                 href = "https://github.com/TieuKhang/Shellhack-Sep-2020-Education-Hack" 
                 target = "_blank" rel = "noopener noreferrer">
                     Github opensource of this project

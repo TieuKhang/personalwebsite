@@ -19,8 +19,8 @@ const Contactme = (prop) => {
             <p> <span> 
                     My Linkedin: <span>   
                     <a style={{display: "table-cell"}} target = "_blank" rel = "noopener noreferrer"
-                    href = "https://www.linkedin.com/in/khang-tieu-773636191/">
-                        https://www.linkedin.com/in/khang-tieu-773636191/
+                    href = "https://www.linkedin.com/in/khang-tieu/">
+                        https://www.linkedin.com/in/khang-tieu/
                     </a>
                     </span>
                 </span>

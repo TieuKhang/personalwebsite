@@ -4,7 +4,8 @@ import './style/styling.css'
 import Intro from './component/Intro'
 import Skill from './component/Skills'
 import Rmfschool from './component/Rmfschool'
-import Just4u from './component/Just4u'
+import Attendancemap from "./component/Attendancemap"
+import Grocerybased from "./component/Grocerybased";
 import Teachengl from './component/Teachengl'
 import Contact from './component/Contact'
 import Contactme from './component/Contactme'
@@ -20,7 +21,9 @@ class App extends React.Component {
           <h1 className = "Web-header"> PROJECTS </h1>
           <Rmfschool/>
           <p></p>
-          <Just4u/>
+          <Attendancemap/>
+          <p></p>
+          <Grocerybased/>
           <p></p>
           <Teachengl/>
         </div>

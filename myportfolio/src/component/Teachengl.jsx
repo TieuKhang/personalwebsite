@@ -31,12 +31,12 @@ const Teachengl = (prop) => {
                 </p>
             </div>
 
-            <a style={{display: "table-cell"}} className = "Project-link" href = "https://tieukhang.github.io/" 
+            <a style={{display: "table-cell", borderRadius:8}} className = "Project-link" href = "https://tieukhang.github.io/" 
                 target = "_blank" rel = "noopener noreferrer">
                     Click here to view the project
             </a>
 
-            <a style={{display: "table-cell"}} className = "Project-link"
+            <a style={{display: "table-cell", borderRadius:8}} className = "Project-link"
                 href = "https://github.com/TieuKhang/TieuKhang.github.io" 
                 target = "_blank" rel = "noopener noreferrer">
                     Github opensource of this project
