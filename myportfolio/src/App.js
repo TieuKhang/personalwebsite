@@ -31,7 +31,7 @@ class App extends React.Component {
         <p></p>
         <hr/>
         <p>
-          This website is made with ReactJS and Express Server in NodeJs. 
+          This website is made with ReactJS. 
           <span> <a style={{display: "table-cell"}} target = "_blank" rel = "noopener noreferrer"
                     href='https://github.com/TieuKhang/personalwebsite'>
                         Github code 
