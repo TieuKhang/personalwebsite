@@ -21,9 +21,10 @@ const Attendancemap = (prop) => {
                 <h2 className = "Title"> About this project </h2>
                 <p> This is a website I developed that allows users to mark or remove their attendance 
                     at any location on the provided map 
-                    so that every user will be informed of crowds upon looking up any destination.
+                    so that every user will be informed of crowds upon looking up any destination with an additional chatbot.
                 </p>
                 <p> The website is served with Django backend API.
+                    The chatbot is built using NumPy, NLTK, and PyTorch.
                     The database of this project was enabled by PostgreSQL.
                     The front-end of the website was built with ReactJS.
                 </p>
@@ -31,7 +32,7 @@ const Attendancemap = (prop) => {
                     <span className = "Categories">Programming language: </span> <span>Javascript, Python</span>
                 </p>
                 <p> 
-                    <span className = "Categories">Tools: </span> <span>ReactJS, Django, PostgreSQL, Google Map API</span>
+                    <span className = "Categories">Tools: </span> <span>ReactJS, Django, PostgreSQL, Google Map API, NumPy, NLTK, PyTorch</span>
                 </p>
             </div>
 

@@ -15,13 +15,13 @@ const Skill = (prop) => {
                     Honor list of Canadian Senior Math Contest.
                 </p>
                 <p> <span className = "Self-category"> Programming languages: </span> 
-                    HTML/CSS, JavaScript, Python, C/C++, Java
+                    JavaScript, Java, Kotlin, HTML/CSS, Python, C/C++, PHP
                 </p>
                 <p> <span className = "Self-category"> Frameworks: </span> 
-                    React Native, ReactJS, NodeJS, ExpressJS, jQuery, Flask, Django
+                    React Native, ReactJS, NodeJS, ExpressJS, Next.js, Vue.js, Cypress, jQuery, Flask, Django
                 </p>
                 <p> <span className = "Self-category"> Tools: </span> 
-                    Firebase, Google Cloud Platform, Heroku, MongoDB/Mongoose, SQL/PostgreSQL, AWS S3, Expo, Visual Studio Code, Android Studio, XCode, Simplicity Studio, Git, Linux
+                Firebase, Google Cloud Platform, Heroku, AWS, Azure, Jenkin, Datadog, Sonatype, SonarQube, Prisma, MongoDB/Mongoose, SQLite/PostgreSQL, Docker, NumPy, NLTK, PyTorch, OpenCV, Expo, Android Studio, XCode, Git, Linux
                 </p>
             </div>
         </div>

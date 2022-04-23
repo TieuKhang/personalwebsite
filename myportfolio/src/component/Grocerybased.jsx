@@ -38,8 +38,7 @@ const Grocerybased = (prop) => {
             <div className = "Description">
                 <h2 className = "Title"> About this project </h2>
                 <p> This is a project that I developed with a team for the Hack The North 2021 event that 
-                    allows users to capture or upload picture of a grocery item and its label will be recognized by the Google Vision API
-                    and stored in a list for the users to keep track of and compare their prices. 
+                    allows users to detect text on grocery item by using the Google Vision API as well as OpenCV.
                 </p>
                 <p> The website was built with Python/Flask server.
                     The database in used is SQLAlchemy.
@@ -49,7 +48,7 @@ const Grocerybased = (prop) => {
                     <span className = "Categories">Programming language: </span> <span>Javascript, Python</span>
                 </p>
                 <p> 
-                    <span className = "Categories">Tools: </span> <span>ReactJS, Flask, SQLAlchemy</span>
+                    <span className = "Categories">Tools: </span> <span>ReactJS, Flask, SQLAlchemy, OpenCV</span>
                 </p>
             </div>
 

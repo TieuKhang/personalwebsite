@@ -9,6 +9,7 @@ import Grocerybased from "./component/Grocerybased";
 import Teachengl from './component/Teachengl'
 import Contact from './component/Contact'
 import Contactme from './component/Contactme'
+import Chessgame from './component/Chessgame'
 
 class App extends React.Component {
   render() {
@@ -19,9 +20,11 @@ class App extends React.Component {
         <Skill/>
         <div id = "Project">
           <h1 className = "Web-header"> PROJECTS </h1>
-          <Rmfschool/>
-          <p></p>
           <Attendancemap/>
+          <p></p>
+          <Chessgame/>
+          <p></p>
+          <Rmfschool/>
           <p></p>
           <Grocerybased/>
           <p></p>
